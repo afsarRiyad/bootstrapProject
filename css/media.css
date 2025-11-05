@@ -1,0 +1,662 @@
+  /* extra small  */
+@media (max-width: 575.98px) {
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .navbar-toggler:hover {
+        border: none;
+    }
+
+    .navbar-toggler {
+        border: none;
+    }
+
+    .navbar-brand img {
+        width: 150px;
+    }
+
+    .navbar-nav {
+        gap: 15px;
+        text-align: center;
+    }
+
+    .button {
+        margin-left: 0;
+        text-align: center;
+        margin-left: 0;
+        text-align: center;
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-top: 8px;
+    }
+
+    .nav-item3 {
+        margin-bottom: 10px;
+    }
+
+    .banner-left h1 {
+        font-size: 48px;
+        line-height: 60px;
+        padding-right: 20px;
+    }
+
+    .banner-left {
+        padding-top: 0px;
+    }
+
+    #banner {
+        padding-top: 130px;
+    }
+
+    .banner-left p {
+        font-size: 18px;
+        padding-right: 0px;
+        margin-bottom: 50px;
+        margin-top: 20px;
+    }
+    
+    .navbar-collapse {
+    background-color: #ededed;
+    padding: 25px 0px;
+    border-radius: 15px;
+   }
+   .banner-right {
+    padding-bottom: 40px;
+   }
+   #welcome {
+    padding-top: 70px;
+   }
+   .future-button{
+    display: flex;
+    margin-bottom: 30px;
+   }
+   .banner-left a {
+    font-weight: 500;
+    font-size: 14px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-right: 10px;
+  }
+  .banner-left p{
+    margin-bottom: 20px;
+  }
+  .welcome-txt h1 {
+    font-size: 40px;
+    line-height: 56px;
+   }
+   #welcome {
+    padding-top: 80px;
+   }
+   .welcome-txt p {
+    padding: 17px 14px;
+    margin-bottom: 20px;
+  }
+  .welcome-right {
+    padding-top: 12px;
+    padding-left: 10px;
+   }
+   .welcome-right h2 {
+    font-size: 36px;
+    line-height: 60px;
+    padding-bottom: 5px;
+   }
+   .welcome-right p {
+    padding-bottom: 22px;
+    font-size: 14px;
+    line-height: 24px;
+}
+   #concerns {
+    padding-top: 80px;
+   }
+   .hovt {
+    font-size: 38px;
+    line-height: 46px;
+  }
+  .main {
+    padding-top: 45px;
+    padding-bottom: 80px;
+  }
+  .main-box {
+    margin-bottom: 20px;
+  }
+   .hovt2 {
+    font-size: 34px;
+    line-height: 50px;
+ }
+ .hovt2::after{
+    width: 120px;
+    height: 8px;
+ }
+ .head-txt2 {
+    margin-bottom: 0px; 
+}
+.growing-box {
+    margin-top: 15px;
+}
+.growing-box h3 {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 45px;
+}
+.growing-box p {
+    font-size: 23px;
+    line-height: 32px;
+    padding-bottom: 30px;
+}
+#faq {
+    padding-top: 0px; 
+    margin-top: 80px;
+}
+.accordion-button {
+     padding-left: 20px; 
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    line-height: 21px;
+     padding-top: 10px;
+  padding-bottom: 10px;
+    }
+.accordion-item {
+    margin-bottom: 20px;
+    padding: 0px; 
+}
+.accordion-button:not(.collapsed) {
+    font-size: 18px;
+    transition: 0.25s;
+}
+.accordion-body strong {
+    padding-left: 26px;
+    font-size: 15px;
+    padding-bottom: 13px;
+    padding-left: 0px;
+    padding-top: 14px;
+}
+.faq-right {
+    margin-top: 30px;
+ margin-left: 0px; 
+ padding-bottom: 30px;
+}
+#success {
+    padding-top: 90px;
+    padding-bottom: 80px;
+}
+.success-right {
+     padding-left: 0px; 
+}
+.success-right .h-success {
+    font-size: 36px;
+    line-height: 46px;
+    padding-top: 20px;
+}
+.success-right p {
+    padding-top: 33px;
+    padding-bottom: 17px;
+}
+.success-left i {
+    font-size: 70px;
+}
+.success-right i {
+    font-size: 35px;
+}
+.learning-right {
+    margin-left: 23px;
+    border-radius: 30px;
+}
+.form-t {
+    max-width: 18rem;
+}
+.learning-right h2 {
+    font-size: 35px;
+    line-height: 50px;
+    margin-top: 20px;
+}
+.learning-padding {
+    padding: 50px 0;
+}
+.lbutton {
+    font-size: 16px;
+    padding: 8px 16px;
+
+}
+#learning{
+    margin-bottom:80px;
+}
+.footer h5 {
+    font-size: 21px;
+}
+.footer-left p {
+    font-size: 16px;
+    line-height: 30px;
+    padding-right: 0px;
+}
+.footer-right {
+    text-align: left !important;
+    padding-right: 0;
+}
+.i-icons {
+    justify-content: flex-start;
+    margin-top: 0px;
+}
+.fa-brands {
+    padding: 5px;
+    font-size: 30px;
+}
+.desktop-logo{
+    display: none;
+}
+.mobile-logo{
+    display: block;
+    width: 80px;
+    height: 30px;
+    margin-top: 5px;
+}
+.footer-right p {
+    font-size: 16px;
+    line-height: 30px;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 0rem;
+}
+.i-icons{
+    justify-content: space-between;
+}
+.f-icons{
+    display: flex;
+    gap: 9px;
+}
+}
+
+
+   /* small screen  */
+
+@media(min-width:576px) and (max-width:767.98px){
+
+ .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .navbar-toggler:hover {
+        border: none;
+    }
+
+    .navbar-toggler {
+        border: none;
+    }
+
+    .navbar-brand img {
+        width: 150px;
+    }
+
+    .navbar-nav {
+        gap: 15px;
+        text-align: center;
+    }
+
+    .button {
+        margin-left: 0;
+        text-align: center;
+        margin-left: 0;
+        text-align: center;
+        margin-left: 150px;
+        margin-right: 150px;
+        margin-top: 8px;
+    }
+
+    .nav-item3 {
+        margin-bottom: 10px;
+    }
+    .navbar-collapse {
+    background-color: #ededed;
+    padding: 25px 0px;
+    border-radius: 15px;
+   }
+  
+#banner {
+  padding-top: 80px;
+}
+.banner-left h1 {
+    font-size: 40px;
+    line-height: 50px;
+    padding-right: 0px;
+}
+.banner-left p {
+    font-size: 20px;
+    padding-right: 20px;
+    margin-bottom: 38px;
+}
+.banner-left a {
+    font-size: 18px;
+    padding: 8px 12px;
+}
+.future-button{
+    margin-bottom: 35px;
+}
+.banner-right {
+    padding-bottom: 48px;
+}
+#welcome {
+    padding-top: 90px;
+}
+.welcome-txt h1 {
+    font-size: 58px;
+    line-height: 70px;
+}
+.welcome-right h2 {
+    font-size: 34px;
+    line-height: 70px;
+    padding-bottom: 0px;
+}
+.welcome-txt p {
+    padding: 0px 10px;
+    font-size: 18px;
+    line-height: 26px;
+    padding-top: 25px;
+    padding-bottom: 30px;
+}
+.welcome-right {
+    padding-top: 60px;
+    padding-left: 10px;
+}
+.welcome-right p {
+    padding-bottom: 30px;
+    font-size: 17px;
+}
+#concerns {
+    padding-top: 70px;
+}
+.hovt {
+    font-size: 44px;
+}
+.main-box {
+    margin-bottom: 25px;
+}
+.main {
+    padding-bottom: 90px;
+}
+.growing-box {
+    margin-top: 25px;
+}
+#faq {
+    padding-top: 80px;
+    padding-bottom: 30px;
+    margin-top: 120px;
+}
+.success-right {
+    padding-left: 0px;
+}
+.success-right .h-success {
+    font-size: 38px;
+    line-height: 50px;
+    padding-top: 25px;
+}
+.success-right p {
+    padding-top: 31px;
+    padding-bottom: 12px;
+}
+.success-left i {
+    font-size: 75px;
+}
+#success {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.learning-right {
+    margin-left: 30px;
+}
+.learning-right h2 {
+    padding-top: 20px;
+    font-size: 40px;
+    line-height: 60px;
+}
+.form-t {
+    max-width: 27rem;
+}
+#learning{
+    margin-bottom:100px;
+}
+.footer h5 {
+    font-size: 28px;
+}
+.footer-left p {
+    font-size: 16px;
+    line-height: 30px;
+    padding-right: 0px;
+}
+.footer-right {
+    text-align: left !important;
+    padding-right: 0;
+}
+.i-icons {
+    justify-content: flex-start;
+    margin-top: 0px;
+}
+.fa-brands {
+    padding: 5px;
+    font-size: 30px;
+}
+.desktop-logo{
+    display: none;
+}
+.mobile-logo{
+    display: block;
+    width: 100px;
+    height: 30px;
+    margin-top: 5px;
+}
+.footer-right p {
+    font-size: 16px;
+    line-height: 30px;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 0rem;
+}
+.i-icons{
+    justify-content: space-between;
+}
+.f-icons{
+    display: flex;
+    gap: 9px;
+}
+}
+
+/*== Medium device ===*/
+@media(min-width:768px) and (max-width:991.98px){
+
+.nav-link {
+    line-height: 20px;
+    font-size: 18px; 
+}
+    #banner {
+    background-color: #F9F3E9;
+    padding-top: 90px;
+}
+.banner-img{
+    padding-top: 120px;
+}
+.banner-left h1 {
+    font-size: 42px;
+    line-height: 60px;
+}
+.banner-left p {
+    font-size: 22px;
+    padding-right: 19px;
+    margin-bottom: 55px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+.banner-left a {
+    font-size: 18px;
+    padding: 10px 15px;
+    margin-bottom: 35px;
+}
+
+#welcome {
+    padding-top: 110px;
+}
+.welcome-txt h1 {
+    font-size: 49px;
+    line-height: 60px;
+}
+.welcome-txt p {
+    line-height: 27px;
+    padding: 18px 0px;
+}
+.welcome-right {
+    padding-top: 60px;
+    padding-left: 5px;
+}
+#concerns {
+    padding-top: 110px;
+}
+.main {
+    padding-top: 55px;
+    padding-bottom: 110px;
+}
+.main-box {
+    margin-bottom: 28px;
+}
+.hovt2 {
+    font-size: 42px;
+}
+.growing-box {
+    margin-top: 20px;
+}
+#faq {
+    padding-top: 45px;
+    padding-bottom: 50px;
+    margin-top: 120px;
+}
+.hovt {
+    font-size: 38px;
+    line-height: 50px;
+}
+.accordion-button {
+    padding-left: 16px;
+    font-size: 15px;
+}
+.accordion-item {
+    margin-bottom: 15px;
+    padding: 0px 0px;
+}
+
+.accordion-button:not(.collapsed) {
+    font-size: 20px;
+}
+.accordion-body strong {
+    font-size: 16px;
+    padding-bottom: 7px;
+    padding-left: 5px;
+    padding-top: 13px;
+}
+#success {
+    padding-top: 110px;
+    padding-bottom: 120px;
+}
+.success-just{
+    align-items: center;
+}
+.success-right {
+    padding-left: 0px;
+}
+.success-right .h-success {
+    font-size: 32px;
+    line-height: 40px;
+}
+.success-right p {
+    font-size: 16px;
+    line-height: 27px;
+    padding-top: 21px;
+    padding-bottom: 0px;
+}
+.play2 img{
+    margin-top: 0px;
+}
+.success-left i {
+    top: 60%;
+    font-size: 65px;
+}
+.learning-right {
+    margin-left: 45px;
+}
+.learning-right h2 {
+    padding-top: 30px;
+    font-size: 42px;
+    line-height: 58px;
+}
+.form-t {
+    max-width: 36rem;
+}
+#learning{
+    margin-bottom:100px;
+}
+.footer-left p {
+    font-size: 16px;
+}
+.footer-right h6 {
+    padding-bottom: 9px;
+}
+}
+
+  /* large screen  */
+
+@media(min-width:1024px) and (max-width:1366.98px){
+.banner-left h1 {
+    font-size: 60px;
+    line-height: 70px;
+}
+#banner {
+    padding-top: 160px;
+}
+.banner-img{
+   margin-top: 50px;
+}
+.banner-left a {
+    font-size: 22px;
+    padding: 10px 15px;
+}
+.banner-right {
+    padding-bottom: 20px;
+}
+.banner-left p {
+    font-size: 22px;
+    line-height: 34px;
+    padding-right: 47px;
+    margin-bottom: 46px;
+}
+.welcome-row{
+    align-items: center;
+}
+.welcome-right h2 {
+    font-size: 36px;
+    line-height: 35px;
+}
+#concerns {
+    padding-top: 120px;
+}
+.main-box {
+    margin-bottom: 25px;
+}
+.success-just{
+    align-items: center;
+}
+.form-t {
+    max-width: 22rem;
+}
+.hovt {
+    font-size: 36px;
+}
+.success-left i {
+    font-size: 80px;
+}
+}
+
+/*== Xtra Large device ===*/
+@media(min-width:1200px) and (max-width:1399.98px){
+    .main-box {
+
+    padding: 25px 13px 29px 6px;
+}
+}
+

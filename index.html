@@ -1,0 +1,511 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Class 15</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&family=Frank+Ruhl+Libre:wght@300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend+Zetta:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sansita+Swashed:wght@300..900&display=swap"
+    rel="stylesheet">
+     <link rel="stylesheet" href="css/style.css">
+     <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+  <!-- navbar starts -->
+  <nav class="navbar navbar-expand-md">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="images/logo.png" alt="logo" class="fluid">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item nav-item3">
+            <a class="nav-link" href="#">FAQ</a>
+          </li>
+        </ul>
+        <div class="button mt-2">
+          <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">Join Us </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Stay connected</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+         <form action="">
+          <label for="Name">Enter Your Name</label>
+            <input type="text" id="Name" class="floatingInput w-100 mb-3 " placeholder="Name">
+                <label for="Email">Enter Your Email</label>
+             <input type="email" id="Email" class="floatingInput w-100 mb-3 " placeholder="diddy123@gmail.com">
+                <label for="Number">Enter Your Number</label>
+             <input type="number" id="Number" class="floatingInput w-100 mb-3 " placeholder="01859*******">
+            <div class="button6 mt-2">
+          <button type="submit" class="border"><a href="#">Submit</a></button>
+        </div>
+         </form>
+      </div>
+      <div class="modal-footer">
+       
+      </div>
+    </div>
+  </div>
+</div>
+  
+
+  <!-- banner starts -->
+  <section id="banner">
+    <div class="container">
+      <div class="row mr-3 banner-r">
+        <div class="col-lg-6 col-md-7">
+          <div class="banner-left">
+            <h1>
+              Better Future For you
+            </h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae orci at sit non. Lorem tincidunt
+              feugiat ut diam dolor hendrerit dictum.
+            </p>
+            <div class="future-button">
+              <a href="#" class="btn1">Learn More</a>
+            <a href="#" class="btn2"><i class="fa-regular fa-circle-play"></i> Watch</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-5 banner-img">
+          <div class="banner-right">
+            <img src="images/banner.png" alt="banner" class="img-fluid w-100">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- welcome starts -->
+  <section id="welcome">
+    <div class="container">
+      <div class="welcome-txt text-center">
+        <h1>
+          Welcome to <span>“Creative Skills”</span>
+        </h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci malesuada in commodo at id elit maecenas sed.
+          Nulla penatibus at enim, volutpat, molestie elit sed. Ullamcorper ullamcorper sed risus, ut laoreet fringilla.
+          Neque, hac netus tincidunt praesent urna, consectetur et vel.
+        </p>
+      </div>
+      <div class="row welcome-row">
+        <div class="col-lg-6">
+          <div class="welcome-left">
+            <img src="images/welcome.png" alt="" class="img-fluid w-100">
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="welcome-right">
+            <h2>
+              Why We Are Best?
+            </h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae orci at sit non. Lorem tincidunt
+              feugiat ut diam dolor hendrerit dictum.
+            </p>
+              <div class="d-flex pading">
+                <span class="check-mark d-inline"> <i class="fa-solid fa-check"></i></span>
+               <p class="d-inline pad">
+                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae orci at sit non.
+               </p>
+              </div>
+               <div class="d-flex">
+                <span class="check-mark d-inline"> <i class="fa-solid fa-check"></i></span>
+               <p class="d-inline pad">
+                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae orci at sit non.
+               </p>
+              </div>
+               <div class="d-flex">
+                <span class="check-mark d-inline"> <i class="fa-solid fa-check"></i></span>
+               <p class="d-inline pad">
+                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae orci at sit non.
+               </p>
+              </div>
+              
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- welcome ends -->
+
+  <!-- concerns starts -->
+  <section id="concerns">
+    <div class="container">
+      <div class="head-txt">
+        <h3 class="hovt">
+          Our Concerns
+        </h3>
+      </div>
+      <div class="row  d-flex align-items-center main">
+        <div class="col col-lg">
+            <div class="main-box">
+              <div class="c-box">
+                <img src="images/c1.png" alt="" />
+              </div>
+              <div class="c-txt">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+              <div class="c-btn text-end">
+                <a href="">See more</a>
+              </div>
+            </div>
+          </div>
+          </div>
+       <div class="col col-lg">
+            <div class="main-box">
+              <div class="c-box">
+                <img src="images/c2.png" alt="" />
+              </div>
+              <div class="c-txt">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+              <div class="c-btn text-end">
+                <a href="">See more</a>
+              </div>
+            </div>
+          </div>
+          </div>
+       <div class="col col-lg">
+            <div class="main-box">
+              <div class="c-box">
+                <img src="images/c3.png" alt="" />
+              </div>
+              <div class="c-txt">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+              <div class="c-btn text-end">
+                <a href="">See more</a>
+              </div>
+            </div>
+          </div>
+          </div>
+       <div class="col col-lg">
+            <div class="main-box">
+              <div class="c-box">
+                <img src="images/c4.png" alt="" />
+              </div>
+              <div class="c-txt">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+              <div class="c-btn text-end">
+                <a href="">See more</a>
+              </div>
+            </div>
+          </div>
+          </div>
+        <div class="col col-lg">
+            <div class="main-box">
+              <div class="c-box">
+                <img src="images/c5.png" alt="" />
+              </div>
+              <div class="c-txt">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+              <div class="c-btn text-end">
+                <a href="">See more</a>
+              </div>
+            </div>
+          </div>
+          </div>
+      </div>
+    </div>
+  </section>
+  <!-- concerns ends -->
+
+  <!-- GROWM startss -->
+  <section class="grown">
+    <div class="container">
+      <div class="head-txt2">
+        <h3 class="hovt2">
+          We Are growing
+        </h3>
+      </div>
+      <div class="row growin-r">
+        <div class="col-lg-3 col-md-6  col-sm-6 text-center">
+          <div class="growing-box">
+            <h3>2000+</h3>
+            <p>Lorem Ipsum</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6  col-sm-6 text-center">
+          <div class="growing-box">
+            <h3>2000+</h3>
+            <p>Lorem Ipsum</p>
+          </div>
+        </div>
+        <div class="col-lg-3  col-md-6 col-sm-6 text-center">
+          <div class="growing-box">
+            <h3>2000+</h3>
+            <p>Lorem Ipsum</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6  text-center">
+          <div class="growing-box">
+            <h3>2000+</h3>
+            <p>Lorem Ipsum</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- grown ends -->
+
+
+  <!-- FAQ starts -->
+  <section id="faq">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="faq-left">
+            <img src="images/faq.png" alt="faq" class="img-fluid w-100">
+          </div>
+        </div>
+        <div class="col-md-8">
+          <div class="faq-right">
+            <div class="faq-m">
+            <h3 class="hovt fak">
+              Frequently asked Questions
+            </h3>
+            </div>
+            <div class="accordion" id="accordionExample">
+              <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Lorem ipsum dolor sit feat elit?
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu, nisi, libero, lobortis eu
+                        quis sed. Vel dictumst suspendisse placerat lectus in consequat. Lorem egestas eu risus lectus
+                        .</strong>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                       Lorem ipsum dolor sit feat elit?
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu, nisi, libero, lobortis eu
+                        quis sed. Vel dictumst suspendisse placerat lectus in consequat. Lorem egestas eu risus lectus
+                        .</strong>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Lorem ipsum dolor sit feat elit?
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu, nisi, libero, lobortis eu
+                        quis sed. Vel dictumst suspendisse placerat lectus in consequat. Lorem egestas eu risus lectus
+                        .</strong>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed accor-h4" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                      Lorem ipsum dolor sit feat elit?
+                    </button>
+                  </h2>
+                  <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu, nisi, libero, lobortis eu
+                        quis sed. Vel dictumst suspendisse placerat lectus in consequat. Lorem egestas eu risus lectus
+                        .</strong>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+  <!-- FAQ ends -->
+
+  <!-- success starts -->
+  <section id="success">
+    <div class="container">
+      <div class="row success-just">
+        <div class="col-md-6">
+          <div class="success-left">
+           <div class="play play2">
+             <img src="images/success.png" alt="" class="img-fluid w-100">
+            <i class="fa-regular fa-circle-play"></i>
+           </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="head-txt success-right">
+            <h3 class="hovt h-success">
+              Success stories of Our Students
+            </h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci malesuada in commodo at id elit maecenas
+              sed.
+            </p>
+            <div class="row align-items-center">
+              <div class="col-lg-6 col-6">
+                <div class="s-left">
+                 <div class="play">
+             <img src="images/s1.png" alt="" class="img-fluid w-100">
+            <i class="fa-regular fa-circle-play"></i>
+           </div>
+                </div>
+              </div>
+              <div class="col-lg-6 p-3 col-6">
+               <div class="play">
+             <img src="images/s2.png" alt="" class="img-fluid w-100">
+            <i class="fa-regular fa-circle-play"></i>
+           </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+  <!-- sucess ends -->
+
+  <!-- learning starts -->
+  <section id="learning">
+    <div class="container">
+      <div class="bg br-3 rounded-lg">
+        <div class="row learning-padding ">
+          <div class="col-lg-6">
+            <div class="learning-left">
+              <img src="images/learning.png" alt="" class="img-fluid w-100">
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="learning-right">
+              <h2>
+                Are you ready to start
+                learning?
+              </h2>
+              <div class="form-floating mb-3">
+  <input type="text" class="form-control form-t" id="floatingInput" placeholder="Nurul Afsar Riyad">
+  <label for="floatingInput ">Your Name</label>
+</div>
+<div class="form-floating">
+  <input type="email" class="form-control form-t" id="floatingPassword" placeholder="Password">
+  <label for="floatingPassword">Your Email</label>
+</div>
+              <div class="btn5">
+                <button type="button" class="btn btn-warning lbutton">Join Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- learning ends -->
+
+  <!-- footer start -->
+          <footer class="footer">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-12">
+                    <div class="full-border"></div>
+                </div>
+              </div>
+                 <div class="row pb-5 d-flex justify-content-between">
+                  <div class="col-md-7">
+                    <div class="footer-left">
+                        <h5>
+                          A Little About <span> “CREATIVE SKILLS”</span>
+                        </h5>
+                        <p class="footer-p">
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. In netus sed id libero. Aenean lectus egestas nunc consectetur magna laoreet at. Elementum, viverra quam in urna, a suscipit elit tempor. Vitae ornare tincidunt at quisque massa.
+                        </p>
+                        <img src="images/c1.png" alt="" class="img-fluid desktop-logo">
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="footer-right text-end">
+                      <h6>
+                        Location
+                      </h6>
+                      
+                      <p class="footer-p">
+                        Momtaz Plaza (4th Floor)  
+                        House#7, Road#4, Dhanmondi,
+                        Dhaka-1205
+                      </p>
+                      <h6 class="hhh">
+                        Find us on
+                      </h6>
+                    <div class="i-icons">         
+           <div class="f-icons">
+             <a href=""><i class="fa-brands fa-instagram "></i></a>
+            <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+           </div>
+             <img src="images/c1.png" alt="" class="img-fluid mobile-logo">
+             </div>   
+                  </div>
+                 </div>
+            </div>
+            </div>
+          </footer>
+  <!-- footer ends -->
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+</body>
+
+</>
