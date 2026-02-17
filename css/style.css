@@ -54,7 +54,7 @@ ol {
 }
 
 .nav-link:hover::after {
-    width: 20px;
+    width: 21px;
 }
 
 .button {
