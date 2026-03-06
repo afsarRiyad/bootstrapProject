@@ -52,13 +52,7 @@ cd bootstrapProject
 
 Open index.html in your browser.
 
-📸 Preview
 
-(Add website screenshots here)
-
-Example:
-
-/images/preview.png
 🎯 Learning Goals
 
 This project helped practice:
