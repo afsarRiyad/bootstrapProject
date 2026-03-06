@@ -35,14 +35,20 @@ Bootstrap
 
 Figma (Design Reference)
 
-📂 Project Structure
+## 📂 Project Structure
+
 bootstrapProject
 │
 ├── index.html
-├── style.css
-├── assets/
-│   └── images
-└── README.md
+│
+├── css
+│   ├── style.css
+│   └── media.css
+│
+├── images
+    └── (all project images)
+
+
 🚀 Getting Started
 1️⃣ Clone the repository
 git clone https://github.com/afsarRiyad/bootstrapProject.git
