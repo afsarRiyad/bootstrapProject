@@ -31,7 +31,7 @@ ol {
     border-radius: 4px;
     background-color: #F6A51B;
     bottom: -8px;
-    left: 50%;
+    left: 55%;
     transform: translateX(-50%);
     transition: .25s;
 }
