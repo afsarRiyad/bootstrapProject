@@ -3,7 +3,6 @@
 This project is a UI clone created from a Figma design using Bootstrap.
 The goal of this project is to practice converting design layouts into a responsive website using Bootstrap components and grid system.
 
-
 📌 Project Overview
 
 This project recreates a design from Figma and converts it into a working webpage using:
