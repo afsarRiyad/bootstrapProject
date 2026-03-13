@@ -75,7 +75,7 @@ Structuring frontend projects
 
 👨‍💻 Author
 
-Riyad
+Nurul Afsar Riyad
 
 GitHub:
 https://github.com/afsarRiyad
