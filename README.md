@@ -13,7 +13,6 @@ Responsive design principles
 
 Clean HTML structure.
 
-
 It focuses on frontend UI development and design implementation.
 
 
