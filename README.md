@@ -15,7 +15,6 @@ Clean HTML structure.
 
 It focuses on frontend UI development and design implementation.
 
-
 ✨ Features
 
 🎨 Figma design converted to real website
