@@ -29,7 +29,6 @@ It focuses on frontend UI development and design implementation.
 
 HTML5
 
-
 CSS3
 
 Bootstrap
