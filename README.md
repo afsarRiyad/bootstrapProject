@@ -27,6 +27,7 @@ It focuses on frontend UI development and design implementation.
 
 🛠️ Technologies Used
 
+
 HTML5
 
 CSS3
