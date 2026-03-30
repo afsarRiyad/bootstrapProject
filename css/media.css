@@ -278,7 +278,9 @@ p {
     .navbar-toggler:hover {
         border: none;
     }
-
+  .navbbar{
+    color: white;
+  }
     .navbar-toggler {
         border: none;
     }
